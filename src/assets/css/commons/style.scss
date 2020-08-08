@@ -1,0 +1,16 @@
+// 自己定义的基础样式
+.flex {
+    display: flex;
+    -webkit-display: flex;
+}
+.flex-center {
+    align-items: center;
+    justify-content: center;
+}
+.flex-space-between {
+    align-items: center;
+    justify-content: space-between;
+}
+.flex-column {
+    flex-direction: column;
+}

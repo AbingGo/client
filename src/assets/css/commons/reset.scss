@@ -1,0 +1,49 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+html {
+    font-size: 24px;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-family: $fontFamily;
+    font-size: $fontSize;
+    color: $fontColor;
+}
+p,
+li,
+ul {
+    padding: 0;
+    margin: 0;
+}
+li,
+ul {
+    list-style: none;
+}
+input::-webkit-input-placeholder, 
+textarea::-webkit-input-placeholder {
+    font-family: $fontFamily;
+    font-size: $placeholderFontSzie;
+    color: $fontColor;
+}
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+    font-family: $fontFamily;
+    font-size: $placeholderFontSzie;
+    color: $fontColor;
+}
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+    font-family: $fontFamily;
+    font-size: $placeholderFontSzie;
+    color: $fontColor;
+}
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder { 
+    font-family: $fontFamily;
+    font-size: $placeholderFontSzie;
+    color: $fontColor;
+}
